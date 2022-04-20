@@ -1,0 +1,65 @@
+
+/*local html style*/
+html{
+    scroll-padding-top: 70px;
+    padding-top: 33px;
+    /*background-color: rgb(247, 247, 247);*/
+}
+
+/*header*/
+.navbar{
+    margin: 0;
+    padding:0;
+}
+
+/*book manage section html style*/
+.book-manage{
+    margin-top: 10px;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.book-list{
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table{
+    border: 1px;
+    border-style: solid;
+    background-color: wheat;
+
+}
+.book-img{
+    height: 150px;
+}
+
+.book-name-row{
+    width: 100%;
+    word-wrap: break-word;
+    background-color: yellow;
+    white-space: initial;
+}
+
+
+/* spin effect*/
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% {  transform: rotate(359deg); }
+}
+.icon-loading {
+    animation: spin 2s linear infinite;
+    /* animation: spin 1s infinite ease-in; */
+    display: inline-block;
+    /*border: 2px solid peru;*/
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/*check box*/
+.form-check-input{
+    opacity: 1 !important;
+}

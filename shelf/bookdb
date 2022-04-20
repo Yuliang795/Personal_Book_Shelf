@@ -1,0 +1,12 @@
+DROP DATABASE bookdb;
+CREATE DATABASE bookdb CHARACTER SET utf8 COLLATE utf8_bin;
+
+use bookdb;
+CREATE TABLE book(
+BookName    VARCHAR(200) NOT NULL,
+dir     VARCHAR(100) NOT NULL,
+cover   VARCHAR(100) NOT NULL,
+UploadDate  DATETIME NOT NULL,
+Uploader    VARCHAR(100) NOT NULL,
+PRIMARY KEY(BookName));
+

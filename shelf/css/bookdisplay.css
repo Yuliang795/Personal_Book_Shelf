@@ -1,0 +1,39 @@
+.book-container {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: antiquewhite;
+    overflow: hidden;
+    margin-bottom: 5rem;
+}
+
+img.card-img-top {
+    width: 200px;
+}
+
+.bookcard{
+    max-height: 200px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.col{
+    /*background-color: #b6effb;*/
+    border: black 3px;
+    color: rgba(0,0,0,0);
+}
+
+.card-img-overlay{
+    opacity: 0;
+}
+
+p.card-title{
+    color: white;
+}
+
+.col:hover .card-img-overlay{
+    background-color: rgba(32, 163, 158,0.8);
+    border: black 3px;
+    opacity: 1;
+
+}

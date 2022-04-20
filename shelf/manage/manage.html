@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="./manage_style.css">
+
+    <!-- bootstrap v5 -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <script src=../bootstrap/js/bootstrap.js></script>
+    <title>Manage</title>
+</head>
+<body>
+
+<section class="book-manage">
+
+    <div class="book-list">
+        <div class="operation">
+            <button type="submit" name="del_selected" method="post" class="btn btn-danger">Danger</button>
+        </div>
+        <table class="table align-middle table-hover" >
+            <thead>
+            <tr>
+                <th scope="col"  >#</th>
+                <th  scope="col" >Book Cover</th>
+                <th  scope="col" >Book Name</th>
+                <th scope="col" >Upload Date</th>
+                <th scope="col" >Uploader</th>
+                <th scope="col" >Select</th>
+            </tr>
+            </thead>
+            <tbody>
+<!--            php-->
+            <?php
+             include '../manage.php'
+            ?>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+</body>
+</html>

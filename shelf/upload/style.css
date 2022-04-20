@@ -1,0 +1,42 @@
+html{
+    scroll-padding-top: 70px;
+    padding-top: 70px;
+    /*background-color: rgb(247, 247, 247);*/
+    background-color: #FFFFFF;
+}
+
+navbar{
+    margin: 0;
+    padding:0;
+}
+
+body {
+    background: #FFFFFF !important;
+    height: 100%;
+    color: #333;
+    line-height: 1.4rem;
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+h1 { 
+  text-align: center; 
+}
+
+.dropzone {
+    background: #f2f2f2;
+    border-radius: 5px;
+    border: 2px dashed rgb(0, 135, 247);
+    border-image: none;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+
+    transition: transform 3s ease !important;
+}
+
+.dropzone:hover {
+    background-color: #f2f2f2;
+}
