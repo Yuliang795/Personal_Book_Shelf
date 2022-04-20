@@ -7,7 +7,7 @@ The user can choose to display the files in shelf mode or details mode, this fea
 
 （1）Home page
 
-![alt text](https://github.com/Yuliang795/Personal_Book_Shelf/blob/main/logistics_img/View.png)
+![alt text](https://github.com/Yuliang795/Personal_Book_Shelf/blob/main/logistics_img/homepage/View.png)
 
 User can  hover over the file to check the file's name .
 
@@ -31,7 +31,7 @@ In the management center, all the books are listed in detail mode. The user can 
 
 User can select file by clicking anywhere of each row and delete them at once.
 
-![alt text](https://github.com/Yuliang795/Personal_Book_Shelf/blob/main/logistics_img/Deletion.png)
+![alt text](https://github.com/Yuliang795/Personal_Book_Shelf/blob/main/logistics_img/manage/Deletion.png)
 
 The deletion window asks the user to confirm deleting files and reports results.
 
