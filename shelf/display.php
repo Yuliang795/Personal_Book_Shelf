@@ -46,16 +46,6 @@
 
             ?>
 
-<!--            <div class="col">-->
-<!--                <div class="card bg-dark text-white bookcard h-100">-->
-<!--                    <img src="./img/v1.jpg" class="card-img" alt="...">-->
-<!--                    <div class="card-img-overlay">-->
-<!--                        <h5 class="card-title">Card title</h5>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-
-<!--            -->
         </div>
     </div>
 </section>
